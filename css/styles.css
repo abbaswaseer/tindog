@@ -16,6 +16,10 @@ h1{
     padding: 2% 5%;
 }
 
+.title{
+    margin-bottom:-10px;
+}
+
 
 /* Navigation bar */
 
@@ -44,5 +48,69 @@ h1{
 
 /* title image */
 .title-image{
-    width: 60%;
+    width: 50%;
+    transform: rotate(25deg);
 }
+
+/* features section */
+
+#features{
+    padding: 5% 7%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 7%;
+}
+
+h3{
+    font-family:  'Montserrat', sans-serif;;
+}
+
+p{
+    color:#8f8f8f;
+}
+
+.icon{
+    color:#ef8172;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+
+/* Testimonial Section */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align:center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press section */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px;
+}
+
