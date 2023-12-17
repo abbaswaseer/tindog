@@ -4,6 +4,7 @@ body{
 #title{
     background-color: #ff4c68;
     color:#fff;
+    padding-bottom: 5%;
 }
 
 h1{
@@ -48,14 +49,18 @@ h1{
 
 /* title image */
 .title-image{
-    width: 50%;
+    width: 20%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 /* features section */
 
 #features{
     padding: 5% 7%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box{
@@ -114,3 +119,24 @@ h2{
     margin: 20px;
 }
 
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align:center;
+}
+
+.pricing-cloumn{
+    padding:3% 2%;
+}
+
+@media (max-width: 992px){
+    .title-image{
+        position: static;
+        width: 25%;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
